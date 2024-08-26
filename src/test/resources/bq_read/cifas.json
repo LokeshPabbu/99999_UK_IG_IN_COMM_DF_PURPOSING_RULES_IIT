@@ -1,0 +1,273 @@
+{
+  "name": "cifas_cifas",
+  "description": "cifas_cifas",
+  "createMode": "",
+  "writeMode": "",
+  "partition": "",
+  "columnMapping": [
+    {
+      "source": "casenumber",
+      "type": "STRING",
+      "position": 1,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "cifasidnumber",
+      "type": "STRING",
+      "position": 2,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "frauddate",
+      "type": "STRING",
+      "position": 3,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "dateloaded",
+      "type": "STRING",
+      "position": 4,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "operatorid",
+      "type": "STRING",
+      "position": 5,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "archivedate",
+      "type": "STRING",
+      "position": 6,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline1",
+      "type": "STRING",
+      "position": 7,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline2",
+      "type": "STRING",
+      "position": 8,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline3",
+      "type": "STRING",
+      "position": 9,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline4",
+      "type": "STRING",
+      "position": 10,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline5",
+      "type": "STRING",
+      "position": 11,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origpostcode",
+      "type": "STRING",
+      "position": 12,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "fraudcategory",
+      "type": "STRING",
+      "position": 13,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "companyname",
+      "type": "STRING",
+      "position": 14,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "company",
+      "type": "STRING",
+      "position": 15,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "kpostcode",
+      "type": "STRING",
+      "position": 16,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "alpha",
+      "type": "STRING",
+      "position": 17,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "caseid",
+      "type": "STRING",
+      "position": 18,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "applicationdate",
+      "type": "STRING",
+      "position": 19,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "destructiondate",
+      "type": "STRING",
+      "position": 20,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "suppliedcompanynumber",
+      "type": "STRING",
+      "position": 21,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "subjectrole",
+      "type": "STRING",
+      "position": 22,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "subjectrolequalifier",
+      "type": "STRING",
+      "position": 23,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "availableformatching",
+      "type": "STRING",
+      "position": 24,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "showonconsumerfiles",
+      "type": "STRING",
+      "position": 25,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "owningmembernumber",
+      "type": "STRING",
+      "position": 26,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "casetype",
+      "type": "STRING",
+      "position": 27,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "product",
+      "type": "STRING",
+      "position": 28,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "facility",
+      "type": "STRING",
+      "position": 29,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "hometelephone",
+      "type": "STRING",
+      "position": 30,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "mobiletelephone",
+      "type": "STRING",
+      "position": 31,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addresstype",
+      "type": "STRING",
+      "position": 32,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "timeataddress",
+      "type": "STRING",
+      "position": 33,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "email",
+      "type": "STRING",
+      "position": 34,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "membersearchreference",
+      "type": "STRING",
+      "position": 35,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "filingreason",
+      "type": "STRING",
+      "position": 36,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "suppliedcompanyname",
+      "type": "STRING",
+      "position": 37,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "companyname_hash",
+      "type": "STRING",
+      "position": 38,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline1_hash",
+      "type": "STRING",
+      "position": 39,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline2_hash",
+      "type": "STRING",
+      "position": 40,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline3_hash",
+      "type": "STRING",
+      "position": 41,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline4_hash",
+      "type": "STRING",
+      "position": 42,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origaddrline5_hash",
+      "type": "STRING",
+      "position": 43,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "origpostcode_hash",
+      "type": "STRING",
+      "position": 44,
+      "bqtype": "STRING"
+    }
+  ]
+}

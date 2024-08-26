@@ -1,0 +1,37 @@
+{
+  "type" : "record",
+  "name" : "ccds_auditghosting",
+  "namespace" : "com.equifax.ntg.eden.schema",
+  "fields" : [ {
+  					"name" : "masterghostingreferencenumber",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "datasupplierid",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "dateofghosting",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "dateofunghosting",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "facilitynumber",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "ghostrequestid",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "ghostingreferencenumber",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "companyregisterednumber",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "matchedcompanynumber",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "unghostrequestid",
+					"type" : [ "null", "string" ]
+				}
+			]
+}

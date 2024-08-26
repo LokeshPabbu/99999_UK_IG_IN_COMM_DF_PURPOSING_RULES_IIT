@@ -1,0 +1,404 @@
+{
+	"type": "record",
+	"name": "ccds_submissions",
+	"namespace": "com.equifax.ntg.eden.schema",
+	"fields": [
+		{
+			"name": "urn",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "datasubmissionid",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "pib",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "facilitynumber",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "companytypeindicator",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "businessname",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "addressline1",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "addressline2",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "addressline3",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "addressline4",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "addressline5",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "addressline6",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "postcode",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "additionaltradingstyle",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "businesstelephonenumber",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "companyregisterednumber",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "vatnumber",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "specialinstructionindicator",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "facilitytype",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "startdateofagreement",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "closedateofagreement",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "currentbalance",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "currentbalancecreditindicator",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "facilitystatus",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "originaldefaultbalance",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "defaultsatisfactiondate",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "creditoverdraftlimit",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "flagsetting",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "transfrdtoconsldtddebtaccnt",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "repaymentperiod",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "paymentamount",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "paymentfrequency",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "numberofcashadvances",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "valueofcashadvances",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "minimumbalance",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "minimumbalancecreditindicator",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "maximumbalance",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "maximumbalancecreditindicator",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "averagebalance",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "averagebalancecreditindicator",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "creditturnover",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "creditturnovernetgross",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "debitturnover",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "debitturnovernetgross",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "rejectedpayments",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "maximumdurationofexcess",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "filler",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "changedfacilitynumber",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "banksortcode",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "bankaccountnumber",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "bankaccountiban",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "curraccreportinglevelindicator",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "postcodealpha",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "telephonealpha",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "startdatealpha",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "businessnamealpha",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "matchstatus",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "matchedcompanynumber",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "matchedname",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "matchednamealpha",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+		},
+		{
+			"name": "matchednolicorp",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "usablestatusid",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "recordprocessingstatusid",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "matchedcompanynumberlatest",
+			"type" : [ "null", "string" ]
+		},
+		{
+			"name": "businessname_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "businessname"
+		},
+		{
+			"name": "addressline1_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "addressline1"
+		},
+		{
+			"name": "addressline2_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "addressline2"
+		},
+		{
+			"name": "addressline3_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "addressline3"
+		},
+		{
+			"name": "addressline4_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "addressline4"
+		},
+		{
+			"name": "addressline5_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "addressline5"
+		},
+		{
+			"name": "addressline6_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "addressline6"
+		},
+		{
+			"name": "postcode_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "postcode"
+		},
+		{
+			"name": "postcodealpha_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "postcodealpha"
+		},
+		{
+			"name": "businessnamealpha_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "businessnamealpha"
+		},
+		{
+			"name": "matchedname_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "matchedname"
+		},
+		{
+			"name": "matchednamealpha_hash",
+			"default": null,
+			"type" : [ "null", "string" ],
+			"digestSource": "matchednamealpha"
+		},{
+			"name" : "datasupplierid",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "filetypeid",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "submissiondate",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "filesourcecode",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "filecreationdate",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "dateofcreation",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "masterkey",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "masterfacilitynumber",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "slavefacilitynumber",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "datechanged",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "previousfacilitynumber",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "datasuppliername",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "masterghostingreferencenumber",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "dateofghosting",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "dateofunghosting",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "ghostingreferencenumber",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "ghostrequestid",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "unghostrequestid",
+			"type" : [ "null", "string" ]
+		},{
+			"name" : "datasuppliercode",
+			"type" : [ "null", "string" ]
+		}
+	]
+}

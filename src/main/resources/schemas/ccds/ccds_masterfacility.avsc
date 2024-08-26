@@ -1,0 +1,25 @@
+{
+  "type" : "record",
+  "name" : "ccds_masterfacility",
+  "namespace" : "com.equifax.ntg.eden.schema",
+  "fields" : [ {
+  					"name" : "masterkey",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "masterfacilitynumber",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "slavefacilitynumber",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "datechanged",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "previousfacilitynumber",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "datasupplierid",
+					"type" : [ "null", "string" ]
+				}
+		 	]
+}

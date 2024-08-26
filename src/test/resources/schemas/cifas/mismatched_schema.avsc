@@ -1,0 +1,72 @@
+{
+  "type": "record",
+  "name": "link",
+  "namespace": "com.equifax.ntg.eden.schema",
+  "fields": [
+    {
+      "name": "casenumber",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "cifasidnumber",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "frauddate",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "dateloaded",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "operatorid",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "archivedate",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline1",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline2",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline3",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline4",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline5",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origpostcode",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "fraudcategory",
+      "type": ["null","string"],
+      "default": null
+    }
+  ]
+}

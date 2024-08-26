@@ -1,0 +1,16 @@
+{
+  "type" : "record",
+  "name" : "ccds_datasupplier",
+  "namespace" : "com.equifax.ntg.eden.schema",
+  "fields" : [ {
+  					"name" : "datasupplierid",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "datasuppliercode",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "datasuppliername",
+					"type" : [ "null", "string" ]
+				}
+			]
+}

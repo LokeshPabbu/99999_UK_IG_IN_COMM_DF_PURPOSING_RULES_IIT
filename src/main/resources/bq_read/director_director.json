@@ -1,0 +1,255 @@
+{
+  "name": "director_director_table",
+  "description": "director_director_table",
+  "createMode": "",
+  "writeMode": "",
+  "partition": "",
+  "columnMapping": [
+    {
+      "source": "persno",
+      "type": "STRING",
+      "position": 1,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "perssuf",
+      "type": "STRING",
+      "position": 2,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "titles",
+      "type": "STRING",
+      "position": 3,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "fname",
+      "type": "STRING",
+      "position": 4,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "sname",
+      "type": "STRING",
+      "position": 5,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "hons",
+      "type": "STRING",
+      "position": 6,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "nationality",
+      "type": "STRING",
+      "position": 7,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addr1",
+      "type": "STRING",
+      "position": 8,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addr2",
+      "type": "STRING",
+      "position": 9,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "town",
+      "type": "STRING",
+      "position": 10,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "county",
+      "type": "STRING",
+      "position": 11,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "countrycd",
+      "type": "STRING",
+      "position": 12,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "postcode",
+      "type": "STRING",
+      "position": 13,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "birthdate",
+      "type": "STRING",
+      "position": 14,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "dirstatus",
+      "type": "STRING",
+      "position": 15,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "ksname",
+      "type": "STRING",
+      "position": 16,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "kfname",
+      "type": "STRING",
+      "position": 17,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "kpcode",
+      "type": "STRING",
+      "position": 18,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "tapedate",
+      "type": "STRING",
+      "position": 19,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "taperef",
+      "type": "STRING",
+      "position": 20,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "phone",
+      "type": "STRING",
+      "position": 21,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "ptcabs",
+      "type": "STRING",
+      "position": 22,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "saind",
+      "type": "STRING",
+      "position": 23,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "ssname",
+      "type": "STRING",
+      "position": 24,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "sfname",
+      "type": "STRING",
+      "position": 25,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "careof",
+      "type": "STRING",
+      "position": 26,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "pobox",
+      "type": "STRING",
+      "position": 27,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "usualcountry",
+      "type": "STRING",
+      "position": 28,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "hasura",
+      "type": "STRING",
+      "position": 29,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "partialdob",
+      "type": "STRING",
+      "position": 30,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "fname_hash",
+      "type": "STRING",
+      "position": 31,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "sname_hash",
+      "type": "STRING",
+      "position": 32,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "birthdate_hash",
+      "type": "STRING",
+      "position": 33,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "ksname_hash",
+      "type": "STRING",
+      "position": 34,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "kfname_hash",
+      "type": "STRING",
+      "position": 35,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "ssname_hash",
+      "type": "STRING",
+      "position": 36,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "sfname_hash",
+      "type": "STRING",
+      "position": 37,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "partialdob_hash",
+      "type": "STRING",
+      "position": 38,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addr1_hash",
+      "type": "STRING",
+      "position": 39,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addr2_hash",
+      "type": "STRING",
+      "position": 40,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "postcode_hash",
+      "type": "STRING",
+      "position": 41,
+      "bqtype": "STRING"
+    }
+  ]
+}

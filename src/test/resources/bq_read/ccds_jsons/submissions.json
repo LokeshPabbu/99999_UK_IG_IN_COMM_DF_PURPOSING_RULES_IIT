@@ -1,0 +1,465 @@
+{
+  "name": "ccds_submissions",
+  "description": "ccds_submissions",
+  "createMode": "",
+  "writeMode": "",
+  "partition": "",
+  "columnMapping": [
+    {
+      "source": "urn",
+      "type": "STRING",
+      "position": 1,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "datasubmissionid",
+      "type": "STRING",
+      "position": 2,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "pib",
+      "type": "STRING",
+      "position": 3,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "facilitynumber",
+      "type": "STRING",
+      "position": 4,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "companytypeindicator",
+      "type": "STRING",
+      "position": 5,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "businessname",
+      "type": "STRING",
+      "position": 6,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline1",
+      "type": "STRING",
+      "position": 7,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline2",
+      "type": "STRING",
+      "position": 8,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline3",
+      "type": "STRING",
+      "position": 9,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline4",
+      "type": "STRING",
+      "position": 10,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline5",
+      "type": "STRING",
+      "position": 11,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline6",
+      "type": "STRING",
+      "position": 12,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "postcode",
+      "type": "STRING",
+      "position": 13,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "additionaltradingstyle",
+      "type": "STRING",
+      "position": 14,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "businesstelephonenumber",
+      "type": "STRING",
+      "position": 15,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "companyregisterednumber",
+      "type": "STRING",
+      "position": 16,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "vatnumber",
+      "type": "STRING",
+      "position": 17,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "specialinstructionindicator",
+      "type": "STRING",
+      "position": 18,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "facilitytype",
+      "type": "STRING",
+      "position": 19,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "startdateofagreement",
+      "type": "STRING",
+      "position": 20,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "closedateofagreement",
+      "type": "STRING",
+      "position": 21,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "currentbalance",
+      "type": "STRING",
+      "position": 22,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "currentbalancecreditindicator",
+      "type": "STRING",
+      "position": 23,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "facilitystatus",
+      "type": "STRING",
+      "position": 24,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "originaldefaultbalance",
+      "type": "STRING",
+      "position": 25,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "defaultsatisfactiondate",
+      "type": "STRING",
+      "position": 26,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "creditoverdraftlimit",
+      "type": "STRING",
+      "position": 27,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "flagsetting",
+      "type": "STRING",
+      "position": 28,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "transfrdtoconsldtddebtaccnt",
+      "type": "STRING",
+      "position": 29,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "repaymentperiod",
+      "type": "STRING",
+      "position": 30,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "paymentamount",
+      "type": "STRING",
+      "position": 31,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "paymentfrequency",
+      "type": "STRING",
+      "position": 32,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "numberofcashadvances",
+      "type": "STRING",
+      "position": 33,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "valueofcashadvances",
+      "type": "STRING",
+      "position": 34,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "minimumbalance",
+      "type": "STRING",
+      "position": 35,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "minimumbalancecreditindicator",
+      "type": "STRING",
+      "position": 36,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "maximumbalance",
+      "type": "STRING",
+      "position": 37,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "maximumbalancecreditindicator",
+      "type": "STRING",
+      "position": 38,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "averagebalance",
+      "type": "STRING",
+      "position": 39,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "averagebalancecreditindicator",
+      "type": "STRING",
+      "position": 40,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "creditturnover",
+      "type": "STRING",
+      "position": 41,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "creditturnovernetgross",
+      "type": "STRING",
+      "position": 42,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "debitturnover",
+      "type": "STRING",
+      "position": 43,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "debitturnovernetgross",
+      "type": "STRING",
+      "position": 44,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "rejectedpayments",
+      "type": "STRING",
+      "position": 45,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "maximumdurationofexcess",
+      "type": "STRING",
+      "position": 46,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "filler",
+      "type": "STRING",
+      "position": 47,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "changedfacilitynumber",
+      "type": "STRING",
+      "position": 48,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "banksortcode",
+      "type": "STRING",
+      "position": 49,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "bankaccountnumber",
+      "type": "STRING",
+      "position": 50,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "bankaccountiban",
+      "type": "STRING",
+      "position": 51,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "curraccreportinglevelindicator",
+      "type": "STRING",
+      "position": 52,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "postcodealpha",
+      "type": "STRING",
+      "position": 53,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "telephonealpha",
+      "type": "STRING",
+      "position": 54,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "startdatealpha",
+      "type": "STRING",
+      "position": 55,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "businessnamealpha",
+      "type": "STRING",
+      "position": 56,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "matchstatus",
+      "type": "STRING",
+      "position": 57,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "matchedcompanynumber",
+      "type": "STRING",
+      "position": 58,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "matchedname",
+      "type": "STRING",
+      "position": 59,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "matchednamealpha",
+      "type": "STRING",
+      "position": 60,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "matchednolicorp",
+      "type": "STRING",
+      "position": 61,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "usablestatusid",
+      "type": "STRING",
+      "position": 62,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "recordprocessingstatusid",
+      "type": "STRING",
+      "position": 63,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "matchedcompanynumberlatest",
+      "type": "STRING",
+      "position": 64,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "businessname_hash",
+      "type": "STRING",
+      "position": 65,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline1_hash",
+      "type": "STRING",
+      "position": 66,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline2_hash",
+      "type": "STRING",
+      "position": 67,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline3_hash",
+      "type": "STRING",
+      "position": 68,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline4_hash",
+      "type": "STRING",
+      "position": 69,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline5_hash",
+      "type": "STRING",
+      "position": 70,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline6_hash",
+      "type": "STRING",
+      "position": 71,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "postcode_hash",
+      "type": "STRING",
+      "position": 72,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "postcodealpha_hash",
+      "type": "STRING",
+      "position": 73,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "businessnamealpha_hash",
+      "type": "STRING",
+      "position": 74,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "matchedname_hash",
+      "type": "STRING",
+      "position": 75,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "matchednamealpha_hash",
+      "type": "STRING",
+      "position": 76,
+      "bqtype": "STRING"
+    }
+  ]
+}

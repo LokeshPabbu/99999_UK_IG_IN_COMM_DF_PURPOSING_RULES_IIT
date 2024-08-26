@@ -1,0 +1,271 @@
+{
+  "type": "record",
+  "name": "link",
+  "namespace": "com.equifax.ntg.eden.schema",
+  "fields": [
+    {
+      "name": "casenumber",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "cifasidnumber",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "frauddate",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "dateloaded",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "operatorid",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "archivedate",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline1",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline2",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline3",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline4",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline5",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origpostcode",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "fraudcategory",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "companyname",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "company",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "kpostcode",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "alpha",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "caseid",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "applicationdate",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "destructiondate",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "suppliedcompanynumber",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "subjectrole",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "subjectrolequalifier",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "availableformatching",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "showonconsumerfiles",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "owningmembernumber",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "casetype",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "product",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "facility",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "hometelephone",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "mobiletelephone",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "addresstype",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "timeataddress",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "email",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "membersearchreference",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "filingreason",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "suppliedcompanyname",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "companyname_hash",
+      "type": ["null","string"],
+      "default": null
+    },
+	{
+    "name" : "protectionInfo",
+    "type" : [ "null", {
+      "type" : "record",
+      "name" : "ProtectionInfo",
+      "namespace" : "com.equifax.fabric.commons.dp.domain",
+      "fields" : [ {
+        "name" : "unprotected",
+        "type" : "boolean"
+      }, {
+        "name" : "protectionTime",
+        "type" : "long"
+      }, {
+        "name" : "keyGenTime",
+        "type" : "long"
+      }, {
+        "name" : "keyId",
+        "type" : {
+          "type" : "string",
+          "avro.java.string" : "String"
+        }
+      }, {
+        "name" : "keyBytes",
+        "type" : [ "null", "bytes" ],
+        "default" : null
+      }, {
+        "name" : "keystoreId",
+        "type" : [ "null", {
+          "type" : "string",
+          "avro.java.string" : "String"
+        } ],
+        "default" : null
+      }, {
+        "name" : "keyIndex",
+        "type" : [ "null", "int" ],
+        "default" : null
+      }, {
+        "name" : "encryptionMeta",
+        "type" : [ "null", "bytes" ],
+        "default" : null
+      } ]
+    } ],
+    "default" : null
+  },
+    {
+      "name": "origaddrline1_hash",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline2_hash",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline3_hash",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline4_hash",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origaddrline5_hash",
+      "type": ["null","string"],
+      "default": null
+    },
+    {
+      "name": "origpostcode_hash",
+      "type": ["null","string"],
+      "default": null
+    }
+  ]
+}

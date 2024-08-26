@@ -1,0 +1,28 @@
+{
+  "type" : "record",
+  "name" : "ccds_datasubmissions",
+  "namespace" : "com.equifax.ntg.eden.schema",
+  "fields" : [ {
+  					"name" : "datasubmissionid",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "datasupplierid",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "filetypeid",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "submissiondate",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "filesourcecode",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "filecreationdate",
+					"type" : [ "null", "string" ]
+				},{
+  					"name" : "dateofcreation",
+					"type" : [ "null", "string" ]
+				}
+		 	]
+}

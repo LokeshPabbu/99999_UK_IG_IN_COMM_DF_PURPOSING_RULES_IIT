@@ -1,0 +1,352 @@
+{
+	"type": "record",
+	"name": "insight_comminsightmaster",
+	"namespace": "com.equifax.ntg.eden.schema",
+	"fields": [
+		{
+			"name": "equifaxcompanyref",
+			"type": ["null","string"]
+		},
+		{
+			"name": "companynumber",
+			"type": ["null","string"]
+		},
+		{
+			"name": "typeofcompany",
+			"type": ["null","string"]
+		},
+		{
+			"name": "payprofhistory",
+			"type": ["null","string"]
+		},
+		{
+			"name": "lastpayprofentry",
+			"type": ["null","string"]
+		},
+		{
+			"name": "currentstatus",
+			"type": ["null","string"]
+		},
+		{
+			"name": "worststatus",
+			"type": ["null","string"]
+		},
+		{
+			"name": "nameformatind",
+			"type": ["null","string"]
+		},
+		{
+			"name": "houseident",
+			"type": ["null","string"]
+		},
+		{
+			"name": "clienttype",
+			"type": ["null","string"]
+		},
+		{
+			"name": "accounttype",
+			"type": ["null","string"]
+		},
+		{
+			"name": "clientno",
+			"type": ["null","string"]
+		},
+		{
+			"name": "paymentfreq",
+			"type": ["null","string"]
+		},
+		{
+			"name": "updatedate",
+			"type": ["null","string"]
+		},
+		{
+			"name": "amendid",
+			"type": ["null","string"]
+		},
+		{
+			"name": "accountno",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "posttowncode",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "absolutehseid",
+			"type": ["null","string"]
+		},
+		{
+			"name": "startdate",
+			"type": ["null","string"]
+		},
+		{
+			"name": "enddate",
+			"type": ["null","string"]
+		},
+		{
+			"name": "creditlimit",
+			"type": ["null","string"]
+		},
+		{
+			"name": "currentbalance",
+			"type": ["null","string"]
+		},
+		{
+			"name": "defaultbalance",
+			"type": ["null","string"]
+		},
+		{
+			"name": "startbalance",
+			"type": ["null","string"]
+		},
+		{
+			"name": "creditterms",
+			"type": ["null","string"]
+		},
+		{
+			"name": "repaymentperiod",
+			"type": ["null","string"]
+		},
+		{
+			"name": "indicators",
+			"type": ["null","string"]
+		},
+		{
+			"name": "clsbdate",
+			"type": ["null","string"]
+		},
+		{
+			"name": "clientsowninfo",
+			"type": ["null","string"]
+		},
+		{
+			"name": "addressmatchedind",
+			"type": ["null","string"]
+		},
+		{
+			"name": "companymatchedind",
+			"type": ["null","string"]
+		},
+		{
+			"name": "addressline1",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "addressline2",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "addressline3",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "addressline4",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "addressline5",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "addressline6",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "loaddate",
+			"type": ["null","string"]
+		},
+		{
+			"name": "companyname",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "tradingname",
+			"type": ["null","string"]
+		},
+		{
+			"name": "scalingfactor",
+			"type": ["null","string"]
+		},
+		{
+			"name": "indemnityindicator",
+			"type": ["null","string"]
+		},
+		{
+			"name": "initialdeposit",
+			"type": ["null","string"]
+		},
+		{
+			"name": "terminalpayment",
+			"type": ["null","string"]
+		},
+		{
+			"name": "closedusergroup",
+			"type": ["null","string"]
+		},
+		{
+			"name": "rundate",
+			"type": ["null","string"]
+		},
+		{
+			"name": "runno",
+			"type": ["null","string"]
+		},
+		{
+			"name": "jobnumber",
+			"type": ["null","string"]
+		},
+		{
+			"name": "linenumber",
+			"type": ["null","string"]
+		},
+		{
+			"name": "procflag",
+			"type": ["null","string"]
+		},
+		{
+			"name": "matchtype",
+			"type": ["null","string"]
+		},
+		{
+			"name": "birthdate",
+			"type": ["null","string"],
+			"protect": "true"
+		},
+		{
+			"name": "ncsc",
+			"type": ["null","string"]
+		},
+		{
+			"name": "jobid",
+			"type": ["null","string"]
+		},
+		{
+			"name": "accountno_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "accountno"
+		},
+		{
+			"name": "posttowncode_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "posttowncode"
+		},
+		{
+			"name": "addressline1_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "addressline1"
+		},
+		{
+			"name": "addressline2_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "addressline2"
+		},
+		{
+			"name": "addressline3_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "addressline3"
+		},
+		{
+			"name": "addressline4_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "addressline4"
+		},
+		{
+			"name": "addressline5_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "addressline5"
+		},
+		{
+			"name": "addressline6_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "addressline6"
+		},
+		{
+			"name": "companyname_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "companyname"
+		},
+		{
+			"name": "birthdate_hash",
+			"default": null,
+			"type": ["null","string"],
+			"digestSource": "birthdate"
+		},
+		{
+			"name": "protectionInfo",
+			"type": [
+				"null",
+				{
+					"type": "record",
+					"name": "ProtectionInfo",
+					"namespace": "com.equifax.fabric.commons.dp.domain",
+					"fields": [
+						{
+							"name": "unprotected",
+							"type": "boolean"
+						},
+						{
+							"name": "protectionTime",
+							"type": "long"
+						},
+						{
+							"name": "keyGenTime",
+							"type": "long"
+						},
+						{
+							"name": "keyId",
+							"type": {
+								"type": "string",
+								"avro.java.string": "String"
+							}
+						},
+						{
+							"name": "keyBytes",
+							"type": ["null","bytes"],
+							"default": null
+						},
+						{
+							"name": "keystoreId",
+							"type": [
+								"null",
+								{
+									"type": "string",
+									"avro.java.string": "String"
+								}
+							],
+							"default": null
+						},
+						{
+							"name": "keyIndex",
+							"type": ["null","int"],
+							"default": null
+						},
+						{
+							"name": "encryptionMeta",
+							"type": ["null","bytes"],
+							"default": null
+						}
+					]
+				}
+			],
+			"default": null
+		}
+	]
+}

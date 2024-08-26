@@ -1,0 +1,516 @@
+{
+  "type" : "record",
+  "name" : "insight_insight",
+  "namespace" : "com.equifax.ntg.eden.schema",
+  "fields" : [{
+			"name" : "equifaxcompanyref",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "company",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "typeofcompany",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "payprofhistory",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "lastpayprofentry",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "currentstatus",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "worststatus",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "nameformatind",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "houseident",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "ibmclienttype",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "ibmaccounttype",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "ibmclientno",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "paymentfreq",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "updatedate",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "amendid",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "accountno",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "posttowncode",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "absolutehseid",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "startdate",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "enddate",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "creditlimit",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "currentbalance",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "defaultbalance",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "startbalance",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "creditterms",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "repaymentperiod",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "indicators",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "clsbdate",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "clientsowninfo",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "addressmatchedind",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "companymatchedind",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "addressline1",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "addressline2",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "addressline3",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "addressline4",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "addressline5",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "addressline6",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "loaddate",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "companyname",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "tradingname",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "scalingfactor",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "indemnityindicator",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "initialdeposit",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "terminalpayment",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "closedusergroup",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "ltd",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "tapesrc",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "m_date",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "m_user",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "taperef",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "matchstatus",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "transactiontype",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "commencementdate",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "termsamount",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "termsoverinto",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "termsmonths",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "outstandingbalance",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "agreementnumber",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "newrevised",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "compnameaddrchange",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "comphousename",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "comphousenumber",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "compstreetname",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "compstreettype",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "compdistrict",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "compposttown",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "compcounty",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "comppostcode",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "comptelephone",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "compregistrationno",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "comptype",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "vatnumber",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "othertradingstyle",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "siccode",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "bankchangeflag",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "bankhousename",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "bankhousenumber",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "bankstreetname",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "bankstreettype",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "bankdistrict",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "bankposttown",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "bankcounty",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "bankpostcode",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "bankname",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "banksortcode",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "propchangeflag",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "prophousename",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "prophousenumber",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "propstreetname",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "propstreettype",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "propdistrict",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "propposttown",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "propcounty",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "proppostcode",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "propname",
+			"type" : [ "null", "string" ],
+			"protect": "true"
+			},{
+			"name" : "acno",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "matchref",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "yearsinbusiness",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "ncsc",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "jobid",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "firstdefaultdate",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "latestdefaultdate",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "sparedate",
+			"type" : [ "null", "string" ]
+			},{
+			"name" : "sparechar",
+			"type" : [ "null", "string" ]
+			},
+			{
+			"name": "accountno_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "accountno"
+		  },
+		  {
+			"name": "addressline1_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "addressline1"
+		  },
+		  {
+			"name": "addressline2_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "addressline2"
+		  },
+		  {
+			"name": "addressline3_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "addressline3"
+		  },
+		  {
+			"name": "addressline4_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "addressline4"
+		  },
+		   {
+			"name": "addressline5_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "addressline5"
+		  },
+		   {
+			"name": "addressline6_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "addressline6"
+		  },
+		  {
+			"name": "companyname_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "companyname"
+		  },
+		  {
+			"name": "tradingname_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "tradingname"
+		  },
+		{
+			"name": "comphousename_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "comphousename"
+		  },
+		  {
+			"name": "comphousenumber_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "comphousenumber"
+		  },
+		  {
+			"name": "comppostcode_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "comppostcode"
+		  },
+		  {
+			"name": "bankhousename_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "bankhousename"
+		  },
+		   {
+			"name": "bankhousenumber_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "bankhousenumber"
+		  },
+		   {
+			"name": "bankpostcode_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "bankpostcode"
+		  },
+		  {
+			"name": "bankname_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "bankname"
+		  },
+		  {
+			"name": "prophousename_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "prophousename"
+		  },
+		  {
+			"name": "prophousenumber_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "prophousenumber"
+		  },
+		  {
+			"name": "proppostcode_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "proppostcode"
+		  },
+		  {
+			"name": "propname_hash",
+			"default": null,
+			"type": ["null", "string"],
+			"digestSource": "propname"
+		  },
+		{
+            "name": "protectionInfo",
+            "type": [
+                "null", {
+                    "type": "record",
+                    "name": "ProtectionInfo",
+                    "namespace": "com.equifax.fabric.commons.dp.domain",
+                    "fields": [{
+                            "name": "unprotected",
+                            "type": "boolean"
+                        }, {
+                            "name": "protectionTime",
+                            "type": "long"
+                        }, {
+                            "name": "keyGenTime",
+                            "type": "long"
+                        }, {
+                            "name": "keyId",
+                            "type": {
+                                "type": "string",
+                                "avro.java.string": "String"
+                            }
+                        }, {
+                            "name": "keyBytes",
+                            "type": [
+                                "null",
+                                "bytes"
+                            ],
+                            "default": null
+                        }, {
+                            "name": "keystoreId",
+                            "type": [
+                                "null", {
+                                    "type": "string",
+                                    "avro.java.string": "String"
+                                }
+                            ],
+                            "default": null
+                        }, {
+                            "name": "keyIndex",
+                            "type": [
+                                "null",
+                                "int"
+                            ],
+                            "default": null
+                        }, {
+                            "name": "encryptionMeta",
+                            "type": [
+                                "null",
+                                "bytes"
+                            ],
+                            "default": null
+                        }
+                    ]
+                }
+            ],
+            "default": null
+        }]
+}

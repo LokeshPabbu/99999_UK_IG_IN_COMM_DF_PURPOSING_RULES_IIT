@@ -1,0 +1,393 @@
+{
+  "name": "insight_comm_table",
+  "description": "insight_comm_table",
+  "createMode": "",
+  "writeMode": "",
+  "partition": "",
+  "columnMapping": [
+    {
+      "source": "equifaxcompanyref",
+      "type": "STRING",
+      "position": 1,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "companynumber",
+      "type": "STRING",
+      "position": 2,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "typeofcompany",
+      "type": "STRING",
+      "position": 3,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "payprofhistory",
+      "type": "STRING",
+      "position": 4,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "lastpayprofentry",
+      "type": "STRING",
+      "position": 5,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "currentstatus",
+      "type": "STRING",
+      "position": 6,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "worststatus",
+      "type": "STRING",
+      "position": 7,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "nameformatind",
+      "type": "STRING",
+      "position": 8,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "houseident",
+      "type": "STRING",
+      "position": 9,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "clienttype",
+      "type": "STRING",
+      "position": 10,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "accounttype",
+      "type": "STRING",
+      "position": 11,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "clientno",
+      "type": "STRING",
+      "position": 12,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "paymentfreq",
+      "type": "STRING",
+      "position": 13,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "updatedate",
+      "type": "STRING",
+      "position": 14,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "amendid",
+      "type": "STRING",
+      "position": 15,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "accountno",
+      "type": "STRING",
+      "position": 16,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "posttowncode",
+      "type": "STRING",
+      "position": 17,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "absolutehseid",
+      "type": "STRING",
+      "position": 18,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "startdate",
+      "type": "STRING",
+      "position": 19,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "enddate",
+      "type": "STRING",
+      "position": 20,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "creditlimit",
+      "type": "STRING",
+      "position": 21,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "currentbalance",
+      "type": "STRING",
+      "position": 22,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "defaultbalance",
+      "type": "STRING",
+      "position": 23,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "startbalance",
+      "type": "STRING",
+      "position": 24,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "creditterms",
+      "type": "STRING",
+      "position": 25,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "repaymentperiod",
+      "type": "STRING",
+      "position": 26,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "indicators",
+      "type": "STRING",
+      "position": 27,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "clsbdate",
+      "type": "STRING",
+      "position": 28,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "clientsowninfo",
+      "type": "STRING",
+      "position": 29,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressmatchedind",
+      "type": "STRING",
+      "position": 30,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "companymatchedind",
+      "type": "STRING",
+      "position": 31,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline1",
+      "type": "STRING",
+      "position": 32,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline2",
+      "type": "STRING",
+      "position": 33,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline3",
+      "type": "STRING",
+      "position": 34,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline4",
+      "type": "STRING",
+      "position": 35,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline5",
+      "type": "STRING",
+      "position": 36,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline6",
+      "type": "STRING",
+      "position": 37,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "loaddate",
+      "type": "STRING",
+      "position": 38,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "companyname",
+      "type": "STRING",
+      "position": 39,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "tradingname",
+      "type": "STRING",
+      "position": 40,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "scalingfactor",
+      "type": "STRING",
+      "position": 41,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "indemnityindicator",
+      "type": "STRING",
+      "position": 42,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "initialdeposit",
+      "type": "STRING",
+      "position": 43,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "terminalpayment",
+      "type": "STRING",
+      "position": 44,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "closedusergroup",
+      "type": "STRING",
+      "position": 45,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "rundate",
+      "type": "STRING",
+      "position": 46,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "runno",
+      "type": "STRING",
+      "position": 47,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "jobnumber",
+      "type": "STRING",
+      "position": 48,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "linenumber",
+      "type": "STRING",
+      "position": 49,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "procflag",
+      "type": "STRING",
+      "position": 50,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "matchtype",
+      "type": "STRING",
+      "position": 51,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "birthdate",
+      "type": "STRING",
+      "position": 52,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "ncsc",
+      "type": "STRING",
+      "position": 53,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "jobid",
+      "type": "STRING",
+      "position": 54,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "accountno_hash",
+      "type": "STRING",
+      "position": 55,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "posttowncode_hash",
+      "type": "STRING",
+      "position": 56,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline1_hash",
+      "type": "STRING",
+      "position": 57,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline2_hash",
+      "type": "STRING",
+      "position": 58,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline3_hash",
+      "type": "STRING",
+      "position": 59,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline4_hash",
+      "type": "STRING",
+      "position": 60,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline5_hash",
+      "type": "STRING",
+      "position": 61,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "addressline6_hash",
+      "type": "STRING",
+      "position": 62,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "companyname_hash",
+      "type": "STRING",
+      "position": 63,
+      "bqtype": "STRING"
+    },
+    {
+      "source": "birthdate_hash",
+      "type": "STRING",
+      "position": 64,
+      "bqtype": "STRING"
+    }
+  ]
+}
